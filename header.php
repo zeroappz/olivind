@@ -30,6 +30,15 @@
         <script src="javascript/respond.min.js"></script>
     <![endif]-->
 
+
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
 </head>
 
 <body class="header-fixed page no-sidebar header-style-1 topbar-style-1 menu-has-search">
@@ -71,9 +80,48 @@
                         <div class="wrap-inner clearfix">
                             <div id="site-logo" class="clearfix">
                                 <div id="site-log-inner">
-                                    <a href="home.php" rel="home" class="main-logo">
-                                        <img src="assets/img/logo.png" alt="South Asian Minerals" width="50" height="50" data-retina="assets/img/logo.png" data-width="50" data-height="80">
-                                    </a>
+                                <!--<img src="assets/img/logo.png" alt="South Asian Minerals" width="50" height="50" data-retina="assets/img/logo.png" data-width="50" data-height="80">-->
+                                       
+                                    
+                                <div class="container">
+                                    
+                                    <img src="assets/img/logo.png" data-toggle="modal" data-target="#myModal" alt="South Asian Minerals" width="50" height="50" data-retina="assets/img/logo.png" data-width="50" data-height="80">
+                                 
+                                
+                                  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+          <div class="modal-header">
+           <!--  <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+             <h4 class="modal-title"></h4>  
+          </div><br><br>
+        <div class="modal-body" style="padding-left: 10px;" >
+        <img src="assets/img/logo.png" style="margin-left: 132px;" data-toggle="modal" data-target="#myModal" alt="South Asian Minerals" width="200" height="200" data-retina="assets/img/logo.png" data-width="50" data-height="80">
+         <br>   <p style="font-family:maidandra GD;font-size:24px;padding:10px;text-align:justify;">South Asian Minerals is a well accomplished company in shorting out qualified minerals
+                 for our customers knowing their expectations and satisfying them with consistency in 
+                 our quality by streamlining our daily proudction makes us sustain in the market proudly</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                                
+                                
+                                
+                               
+                               
+                               
+                               
+                               
+                               
+                               
+                                </a>
                                 </div>
                             </div>
                             <!-- /#site-logo -->

@@ -1,6 +1,13 @@
 <?php
 include "header.php";
 ?>
+<style>
+td,tr {
+    border-color:#EDC029;
+    padding:5x;
+    padding:10px;
+}
+</style>
 
     <!-- Main Content -->
     <div id="main-content" class="site-main clearfix">
@@ -131,17 +138,36 @@ include "header.php";
                             <div class="col-md-12">
                                 <div class="themesflat-spacer clearfix" data-desktop="73" data-mobile="60" data-smobile="60"></div>
                                 <ul class="themesflat-filter style-1 clearfix">
-                                    <li class="active"><a href="#" data-filter="*">All</a></li>
-                                    <li><a href="#" data-filter=".olivinesand">OLIVINE SAND</a></li>
-                                    <li><a href="#" data-filter=".refactory">REFRACTORY MIXES</a></li>
+                                    <li class="active"><a href="#" data-filter="*">PRODUCT</a></li>
                                     <li><a href="#" data-filter=".filtersand">EBT FILTER SAND</a></li>
+                                    <li><a href="#" data-filter=".olivinesand">OLIVINE SAND</a></li>
                                     <li><a href="#" data-filter=".slag">SLAG CONDITIONER </a></li>
+                                    <li><a href="#" data-filter=".refactory">REFRACTORY MIXES</a></li>
                                     <li><a href="#" data-filter=".blasting">SAND BLASTING </a></li>
 
                                 </ul>
                                 <div class="themesflat-spacer clearfix" data-desktop="40" data-mobile="35" data-smobile="35"></div>
                                 <div class="themesflat-project style-2 isotope-project has-margin mg15 data-effect clearfix">
-                                    <div class="project-item olivinesand">
+                                
+                                  <!-- /.product-item  ebt-->
+                                  <div class="project-item filtersand">
+                                        <div class="inner">
+                                            <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
+                                                <img src="assets/EBT.jpg" style="height: 280px; width: 100%;" alt="Image">
+                                                <div class="elm-link">
+                                                    <a href="#" class="icon-1 icon-search"></a>
+                                                    <a href="#" class="icon-1"></a>
+                                                </div>
+                                                <div class="overlay-effect bg-color-3"></div>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h5 class="heading" style="text-align:center;"><a href="prod-ebt.php">EBT Filter Sand </a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                 <!-- /.product-item  olivine sand-->
+                                <div class="project-item olivinesand" >
                                         <div class="inner">
                                             <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
                                                 <img src="assets/olivine.jpg" style="height: 280px;" alt="Image">
@@ -157,42 +183,9 @@ include "header.php";
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.product-item -->
-                                    <div class="project-item refactory">
-                                        <div class="inner">
-                                            <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
-                                                <img src="assets/refractory.jpg" style="height: 280px; width: 100%;" alt="Image">
-                                                <div class="elm-link">
-                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                    <a href="#" class="icon-1"></a>
-                                                </div>
-                                                <div class="overlay-effect bg-color-3"></div>
-                                            </div>
-                                            <div class="text-wrap">
-                                                <h5 class="heading" style="text-align:center;"><a href="prod-refractory.php">Refractory Mixes</a></h5>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.product-item -->
-                                    <div class="project-item filtersand">
-                                        <div class="inner">
-                                            <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
-                                                <img src="assets/EBT.jpg" style="height: 280px; width: 100%;" alt="Image">
-                                                <div class="elm-link">
-                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                    <a href="#" class="icon-1"></a>
-                                                </div>
-                                                <div class="overlay-effect bg-color-3"></div>
-                                            </div>
-                                            <div class="text-wrap">
-                                                <h5 class="heading"><a href="prod-ebt.php">EBT Filter Sand </a></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <center>
-                                        <!-- /.product-item -->
-                                        <div class="project-item slag" style="position: absolute;left: 178px !important;top: 371px !important;">
+                                   
+                                     <!-- /.product-item slag-->
+                                     <div class="project-item slag" style="position: absolute;left: 178px !important;top: 371px !important;">
                                             <div class="inner">
                                                 <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
                                                     <img src="assets/slag.jpg" style="height: 280px;" alt="Image">
@@ -208,8 +201,28 @@ include "header.php";
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- /.product-item -->
-                                        <div class="project-item slag" style="position: absolute;left: 592px !important;top: 371px;">
+                                    <!-- /.product-item Refactory-->
+                                    <div class="project-item refactory" style="margin-left:191px !important; ">
+                                        <div class="inner">
+                                            <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
+                                                <img src="assets/refractory.jpg" style="height: 280px; width: 100%;" alt="Image">
+                                                <div class="elm-link">
+                                                    <a href="#" class="icon-1 icon-search"></a>
+                                                    <a href="#" class="icon-1"></a>
+                                                </div>
+                                                <div class="overlay-effect bg-color-3"></div>
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h5 class="heading" style="text-align:center;"><a href="prod-refractory.php">Refractory Mixes</a></h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                 
+                                       
+                                        <!-- /.product-item  sand blasting-->
+                                        <div class="project-item slag" style="position: absolute;left: 605px !important;top: 371px;">
                                             <div class="inner">
                                                 <div class="thumb data-effect-item has-effect-icon w40 offset-v-19 offset-h-49">
                                                     <img src="assets/blast.jpg" style="height: 280px;" alt="Image">
@@ -225,10 +238,105 @@ include "header.php";
                                                 </div>
                                             </div>
                                         </div>
-                                    </center>
+                              
 
 
                                 </div>
+<br>
+  <!--------------------------uses------------------------------->    
+
+  <h2 class="heading" style="padding-left:90px;color:#9ab973;">USES</h2>
+                                            <div class="sep has-width w60 accent-bg margin-top-18 clearfix"></div>
+                                        </div>
+                                        <!-- /.themesflat-heading -->
+                                        <!--      <div class="themesflat-spacer clearfix" data-desktop="35" data-mobile="35" data-smobile="35"></div>
+                                            <div class="themesflat-spacer clearfix" data-desktop="80" data-mobile="60" data-smobile="60"></div>
+                                        <ul style="list-style-type:decimal;list-style-position: inside;padding-left:150px;">
+                                            <li>1.  As the mould material for moulds and cores   </li>
+                                            <li>2.  As a refractory to make forsterite bricks, blocks and sleeves   </li>
+                                            <li>3.  As a mould coat in steel foundries and manganese steel foundries </li>
+                                            <li>4.  As an Abrasive in sand blast to clean the metal surface </li>
+                                            <li>5.  As a Tap Hole Filler in steel melting furnaces</li>
+                                            <li>6.  As a slag conditioner it reduces emission of Co2 and energy saving</li>
+                                            <li>7.  As a ballast for concrete platforms</li>
+                                            <li>8.  As a fertilizer in enriching MgO & Iron in Soil</li>
+                                            <li>9.  As a mineral plastering of building</li>
+                                        </ul><br><br>
+                                        <!------------------------------------------------------------->
+                                
+
+                                        <table  style="text-align: center;border-color:#EDC029;">
+                                                   
+                                                    <tbody>
+                                                        <tr style="border-color:#EDC029;width:450px;" >
+                                                            <td style="border-color:#EDC029;width:450px;">1. As the mould material for moulds and cores</td>
+                                                            <td style="width:450px;">6. As a slag conditioner it reduces emission of Co2 and energy saving</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="width:450px;">2. As a refractory to make forsterite bricks, blocks and sleeves</td>
+                                                            <td>7. As a ballast for concrete platforms</td>
+                                                        </tr>
+                                                        <tr >
+                                                            <td>3. As a mould coat in steel foundries and manganese steel foundries</td>
+                                                            <td>8. As a fertilizer in enriching MgO & Iron in Soil</td>
+                                                        </tr>
+                                                        <tr >
+                                                            <td >4. As an Abrasive in sand blast to clean the metal surface</td>
+                                                            <td >9. As a mineral plastering of building</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>5.  As a Tap Hole Filler in steel melting furnaces</td>
+                                                           
+                                                        </tr>
+                                
+                                
+                                                    </tbody>
+                                                </table>
+<!--------------measurement table-------------------------------------------->
+                                                <table  style="border-color:#EDC029;">
+                                                    
+                                                    <tbody>
+                                                     <tr >
+                                                     <td >6</td>
+                                                         <td>10mm-4</td>
+                                                         <td>8mm-3</td>
+                                                         <td>8mm - 3</td>
+                                                         <td>7mm - 3</td>
+                                                         <td>6mm - 0</td>
+                                                         <td>1mm -  1</td>
+                                                         <td>3mm - 1</td>
+                                                         <td>4mm - 0</td>
+                                                         <td>4mm - 30 </td>
+                                                         <td>mesh</td>
+                                                         <td>#44 - mesh</td>
+                                                         <td>#60 - mesh</td>
+                                                         <td>#200 - mesh</td>
+                                                         <td>#300 - mesh</td>
+                                                      </tr>
+                                                 </tbody>
+                                             </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 <!-- /.themesflat-project -->
                                 <!-- <div class="button-wrap has-icon icon-left size-14 pf21 text-center">
                                                 <a href="#" class="themesflat-button bg-accent pd32"><span>LOAD MORE <span class="icon"><i class="ion-load-c"></i></span></span></a>

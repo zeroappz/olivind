@@ -89,8 +89,7 @@ include "header.php";
                                                 <!-- /.themesflat-cousel-box -->
                                                 <div class="themesflat-spacer clearfix" data-desktop="40" data-mobile="40" data-smobile="40"></div>
                                                 <div class="flat-content-wrap style-3 clearfix">
-                                                    <h5 class="title">PRODUCT DESCRIPTION</h5>
-                                                    <div class="sep has-width w60 accent-bg margin-top-18 clearfix"></div>
+                                                   
                                                     <p class="margin-top-28">Olivine is an inert and non-toxic abrasive mineral having a hardness between 6.5 to 7.0mohs
                                                          in nature it is widely used for wet blasting abrasive system also restores aluminum, fiberglass, marbles, and 
                                                          stone facades, wood and steel. The Olivine Sand acts as a good substitute among other sands for its cost
@@ -161,23 +160,7 @@ include "header.php";
                                 
                                             </div><br>
 
-                                            <h2 class="heading">USES</h2>
-                                            <div class="sep has-width w60 accent-bg margin-top-18 clearfix"></div>
-                                        </div>
-                                        <!-- /.themesflat-heading -->
-                                        <!--      <div class="themesflat-spacer clearfix" data-desktop="35" data-mobile="35" data-smobile="35"></div>
-                                            <div class="themesflat-spacer clearfix" data-desktop="80" data-mobile="60" data-smobile="60"></div>-->
-                                        <ul style="list-style-type:decimal;list-style-position: inside;">
-                                            <li>1.  As the mould material for moulds and cores</li>
-                                            <li>2.  As a refractory to make forsterite bricks, blocks and sleeves</li>
-                                            <li>3.  As a mould coat in steel foundries and manganese steel foundries</li>
-                                            <li>4.  As an Abrasive in sand blast to clean the metal surface</li>
-                                            <li>5.  As a Tap Hole Filler in steel melting furnaces</li>
-                                            <li>6.  As a slag conditioner it reduces emission of Co2 and energy saving</li>
-                                            <li>7.  As a ballast for concrete platforms</li>
-                                            <li>8.  As a fertilizer in enriching MgO & Iron in Soil</li>
-                                            <li>9.  As a mineral plastering of building</li>
-                                        </ul><br><br>
+                                          
                                         <h2 class="heading">Properties</h2>
                                         <div class="sep has-width w60 accent-bg margin-top-18 clearfix"></div>
                                         <table class="table table-bordered" style="text-align: center;">
@@ -211,21 +194,21 @@ include "header.php";
                                                     
                                                        <tbody>
                                                         <tr>
-                                                        <td>6</td>
-                                                            <td>10mm<br>,4</td>
-                                                            <td>8mm<br>,3</td>
-                                                            <td>8mm,<br>3</td>
-                                                            <td>7mm,<br>3</td>
-                                                            <td>6mm,<br>0</td>
-                                                            <td>1mm<br>, 1</td>
-                                                            <td>3mm<br>,1</td>
-                                                            <td>4mm<br>,0</td>
-                                                            <td>4mm,#30 </td>
-                                                            <td>mesh</td>
-                                                            <td>,#44<br> mesh</td>
-                                                            <td>,#60<br> mesh</td>
-                                                            <td>,#200<br> mesh</td>
-                                                            <td>,#300<br> mesh</td>
+                                                        <td >6</td>
+                                                         <td>10mm-4</td>
+                                                         <td>8mm-3</td>
+                                                         <td>8mm - 3</td>
+                                                         <td>7mm - 3</td>
+                                                         <td>6mm - 0</td>
+                                                         <td>1mm -  1</td>
+                                                         <td>3mm - 1</td>
+                                                         <td>4mm - 0</td>
+                                                         <td>4mm - 30 </td>
+                                                         <td>mesh</td>
+                                                         <td>#44 - mesh</td>
+                                                         <td>#60 - mesh</td>
+                                                         <td>#200 - mesh</td>
+                                                         <td>#300 - mesh</td>
                                                          </tr>
                                                     </tbody>
                                                 </table>

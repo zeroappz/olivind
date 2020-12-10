@@ -6,8 +6,8 @@
                     <div class="widget widget_text">
                         <div class="textwidget">
                             <img src="assets/img/logo.png" alt="South Asian Minerals" width="50" height="50" data-retina="assets/img/logo.png" data-width="50" data-height="80">
-                            <br>
-                            <p class="margin-bottom-25">South Asian Minerals is a well accomplished company in shorting out qualified minerals for our customers knowing their expectations and satisfying them with consistency in our quality by streamlining our daily proudction makes
+                            <br><br>
+                            <p >South Asian Minerals is a well accomplished company in shorting out qualified minerals for our customers knowing their expectations and satisfying them with consistency in our quality by streamlining our daily proudction makes
                                 us sustain in the market proudly.</p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
     <!------------------------------------Bottom menu-------------------------------------------------------->
     <!-------------------------------------------------------------------------------------------->
     <!-- Bottom -->
-    <div id="bottom" class="clearfix has-spacer">
+    <div id="bottom" class="clearfix has-spacer"style="padding:10px !importa;">
         <div id="bottom-bar-inner" class="container">
             <div class="bottom-bar-inner-wrap">
                 <div class="bottom-bar-content">

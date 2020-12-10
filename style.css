@@ -903,7 +903,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 /* Bottom
 -------------------------------------------------------------- */
 #bottom { background-color: #1d1d1d ;  font-size: 13px; line-height: 26px; color: #8c8c8c; }
-#bottom .bottom-bar-inner-wrap { padding: 26px 0px 28px 0px; display: table; overflow: hidden; width: 100%; position: relative; }
+#bottom .bottom-bar-inner-wrap { padding: 0px 0px 0px 0px; display: table; overflow: hidden; width: 100%; position: relative; }
 #bottom .bottom-bar-content { display: table-cell; margin: 0; text-align: left; width: 40%; vertical-align: middle; }
 #bottom #copyright span { color: #8c8c8c; }
 #bottom #copyright span.text { padding-left: 6px; letter-spacing: 0.6px; }
